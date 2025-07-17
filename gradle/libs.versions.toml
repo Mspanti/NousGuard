@@ -1,0 +1,37 @@
+[versions]
+agp = "8.8.2"
+kotlin = "1.9.24"
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.1"
+material = "1.12.0"
+foundationLayoutAndroid = "1.8.3"
+biometricKtx = "1.1.0"
+fragmentKtx = "1.8.8"
+biometricKtxVersion = "1.1.0"
+navigationCommonAndroid = "2.9.1"
+generativeai = "0.9.0"
+navigationComposeAndroid = "2.9.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundationLayoutAndroid" }
+androidx-biometric-ktx = { group = "androidx.biometric", name = "biometric-ktx", version = "1.2.0-alpha05" }
+ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentKtx" }
+biometric-ktx = { group = "androidx.biometric", name = "biometric-ktx", version.ref = "biometricKtxVersion" }
+androidx-navigation-common-android = { group = "androidx.navigation", name = "navigation-common-android", version.ref = "navigationCommonAndroid" }
+generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version.ref = "generativeai" }
+androidx-navigation-compose-android = { group = "androidx.navigation", name = "navigation-compose-android", version.ref = "navigationComposeAndroid" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
