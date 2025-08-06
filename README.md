@@ -1,3 +1,4 @@
+![Screenshot_20250806_091138_NousGuard](https://github.com/user-attachments/assets/51b18abe-4bf1-49c8-b483-03f879f5b151)
 NousGuard - Your Offline Healthcare Assistant
 NousGuard is an Android application designed to be a personal, offline healthcare assistant. Its primary focus is to provide support for mental well-being through a secure journaling feature and an intelligent chatbot that operates entirely without an internet connection for its core functions.
 
